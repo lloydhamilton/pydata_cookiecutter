@@ -1,0 +1,8 @@
+{
+    "project":"project",
+    "author":"author",
+    "project_slug":"{{cookiecutter.project.lower().replace(' ', '_')}}",
+    "description":"{{cookiecutter.project_slug}}",
+    "env_name":"{{cookiecutter.project_slug}}_env"
+
+}
